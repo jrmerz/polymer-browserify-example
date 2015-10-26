@@ -1,0 +1,20 @@
+<dom-module id="browserify-example">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      :host(.highlighted) {
+        background-color: yellow;
+      }
+    </style>
+
+    Browserify and Polymer.
+  </template>
+  <script>
+    Polymer({
+      is: 'browserify-example',
+      behaviors : [App.behaviors.example()]
+    });
+  </script>
+</dom-module>

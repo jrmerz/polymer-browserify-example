@@ -1,0 +1,27 @@
+{
+  "name": "polymer-browserify-example",
+  "version": "1.0.0",
+  "description": "Example of using polymer behaviors with browserify ES6 modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm install && bower install && node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrmerz/polymer-browserify-example.git"
+  },
+  "keywords": [
+    "polymer",
+    "browserify"
+  ],
+  "author": "Justin Merz <jrmerz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrmerz/polymer-browserify-example/issues"
+  },
+  "homepage": "https://github.com/jrmerz/polymer-browserify-example#readme",
+  "dependencies": {
+    "browserify": "^12.0.0"
+  }
+}
